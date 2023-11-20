@@ -1,0 +1,1075 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+*:focus{
+  outline: none;
+}
+
+/*============================== SECTION-1 ==================================================*/
+
+.section1 {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px 2px rgb(0, 0, 0, 0.2);
+  /* row-gap: ; */
+}
+.sec1-top {
+  height: 55px;
+  width: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sec1-top div {
+  position: relative;
+  display: flex;
+  top: 5px;
+  left: 30px;
+  align-items: center;
+  column-gap: 5px;
+}
+.sec1-top div:hover {
+  cursor: pointer;
+}
+
+/*============================NAVBAR================================  */
+.sec1-nav {
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00c6a9;
+}
+
+.logo {
+  height: 17vh;
+  width: 130px;
+  background-color: white;
+  position: relative;
+  left: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  height: 18vh;
+  justify-content: space-between;
+  color: white;
+  flex-direction: row;
+  column-gap: 2px;
+  position: relative;
+  left: -40px;
+}
+.sec1-nav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  color: black;
+}
+.menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 18vh;
+  justify-content: space-between;
+  color: white;
+  flex-direction: row;
+  position: relative;
+  right: 35px;
+}
+
+.menu2 div {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+}
+.menu2 div:hover > a,
+.menu2 div:hover > i {
+  color: black;
+  cursor: pointer;
+}
+.menu2 i {
+  font-size: 13px;
+  color: white;
+}
+ 
+/* ======================MAIN PAGE -left panel=============================== */
+.sec1-main{
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 100%;
+
+  box-shadow: 5px solid #F4F4F4;
+}
+.left-panel{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  height: 100%;
+
+}
+.content{
+  position: relative;
+  height: 120px;
+  width: 250px;
+ 
+  left: 100px;
+  top: 130px;
+}
+
+.line{
+  position: relative;
+  height: 70px;
+  width: 80%;
+ 
+  top: 170px;
+  left:100px ;
+
+}
+.line p{
+  font-size: 16px;
+  color: #7E7E7E;
+}
+.line p:nth-child(2){
+  position: relative;
+  top: 5px;
+
+}
+.button{
+  position: relative;
+  height: 40px;
+  width: 150px;
+  top: 170px;
+  left: 100px;
+  background-color: #252525;
+  color: white;
+  border-radius: 7px;
+
+}
+.button p{
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.button:hover{
+  cursor: pointer;
+}
+.icon {
+  height: 63px;
+  width: 63px;
+  background-color: #00c6a9;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 90px;
+  left: 100px;
+  border-radius: 50%;
+}
+.icon i{
+  font-size: 17spx;
+  position: relative;
+  left: 25px;
+  top: 22px;
+}
+.icon:hover {
+  cursor: pointer;
+
+}
+.content p{
+  font-size: 50px;
+  font-weight: 900;
+  
+}
+.content p:nth-child(2){
+  color: #00c6a9;
+}
+
+
+
+/* ==========================RIGHT-PANEL====================================== */
+.right-panel{
+  width: 50%;
+  height: 100%;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+.main-img{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  /* z-index: 1; */
+}
+.main-img img{
+  height: 90% ;
+  width:80% ;
+  position: relative;
+  top: 40px;
+  display: flex;
+}
+.img-2{
+  height: 60px;
+  width: 700px;
+  position: relative;
+  top: 400px;
+  display: flex;
+  right: 300px;
+
+}
+ .img-2 img{
+  height: 700px;
+  width: 470px;
+  display: flex;
+  position: relative;
+  top: -100vh;
+  left: 500px;
+} 
+.arrow{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.prev{
+  width: 50px;
+  height: 47px;
+  top: 20px;
+
+  position: relative;
+  left: 420px;
+ background-color: #00c6a9;
+}
+.prev:hover{ 
+  background-color: black;
+  cursor: pointer;
+
+}
+.next{
+  width: 50px;
+  height: 47px;
+  top: 20px;
+
+  z-index: 2; 
+  position: relative;
+  left: 420px;
+  background-color: #00c6a9;
+} 
+.next:hover{ 
+  background-color: black;
+  cursor: pointer;
+
+}
+.prev img{
+  color: black;
+  width: 13px;
+  height: 15px;
+  position: relative;
+  top: 15px;
+  left: 14px;
+
+ 
+}
+.next img{
+  color: black;
+  width: 13px;
+  height: 15px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+}
+
+/* =======================SECTION-2====================================================== */
+.section2{
+  height: 90vh;
+  width: 100%;
+
+}
+.sec2-main{
+  width: 80%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  box-shadow: 0px 0px 5px 5px rgb(0, 0, 0, 0.1);
+  height: 72%;
+
+}
+.sec2-form{
+  height:85% ;
+  width: 95% ;
+
+  position: relative;
+  top: 30px;
+  left: 37px;
+}
+
+/* ====================================FORM====================================== */
+
+  .sec2-form h4{
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  .sec2-form span{
+    color: #00c6a9;
+  }
+  hr{
+    width: 70px;
+    position: relative;
+    top: 5px;
+  }
+
+.pname , .DName , .DpName{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+}
+.DName select, .DpName select:hover{
+  cursor: pointer;
+}
+
+.form select{
+  width:320px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  border: 1px solid #00c6a9;
+  border-radius: 5px;
+  
+
+}
+.Phone input::placeholder{
+  color: #00c6a9;
+}
+.date input::placeholder{
+  color: #00c6a9;
+
+}
+.form div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  position: relative;
+  top: 25px;
+  margin-top: 20px;
+
+}
+.form input{
+    width: 320px;
+    height: 38px;
+    position: relative;
+    top: 21px;
+    border: 1px solid #00c6a9;
+    border-radius: 5px;
+}
+
+.form label{
+  font-size: 16px;
+  position: relative;
+  top: 90px;
+
+}
+.form option{
+  font-size: 12px;
+  color: gray;
+
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  flex-wrap: wrap;
+
+}
+.form label{
+  position: relative;
+  top: 20px;
+}
+
+.sec2-button{
+  height: 50px;
+  width: 180px;
+  position: relative;
+  top: 20px;
+
+}
+.sec2-button button:hover{
+  cursor: pointer;
+}
+.sec2-button button{
+  background-color: black;
+  color: white;
+  border: none;
+  position: relative;
+  top: 40px;
+  height: 50px;
+  width: 180px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+/* =================================SECTION-3===================================== */
+.section3{
+  height: 90vh;
+  width: 100%;
+
+  display: flex;
+
+
+}
+.sec3-left{
+  height: 100%;
+  width: 45%;
+
+}
+.sec3-right{
+  height: 100%;
+  width: 55%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec3-left img{
+  position: relative;
+  top: 40px;
+  left: 90px;
+}
+.sec3-content{
+  height: 70%;
+  width: 70% ;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+
+}
+.sec3-content h2{
+  position: relative;
+  top: 60px;
+  font-size: 30px;
+  font-family: 500px;
+
+}
+.sec3-line{
+  top: 80px;
+  height: 120px;
+  width: 500px;
+
+  position: relative;
+  left: 1px;
+  color: gray;
+line-height: 0.6cm;
+}
+.sec3-content button{
+  height: 45px;
+  border: none;
+  width: 180px;
+  position: relative;
+  top:120px ;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.sec3-right button:hover{
+  cursor: pointer;
+}
+/* ====================================================SECTION-4====================== */
+.section4{
+  height: 72vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec4-main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sec4-head{
+  height: 40px;
+  width: 400px;
+
+  position: relative;
+  left: 550px;
+  font-weight: 900;
+  font-size: 22px;
+}
+.sec4-box{
+  height: 400px;
+  width: 90%;
+
+  display: flex;
+   align-items: center;
+ /* justify-content: center; */
+ left: 15px;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  column-gap: 20px;
+
+}
+.sec4-box1{
+  height:320px ;
+  width: 200px;
+}
+.sec4-box div{
+  height: 320px;
+   width: 280px ; 
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  line-height: 20px;
+  position: relative;
+  left: 70px;
+
+}
+.sec4-box1 img{
+  height: 70px;
+  width: 70px;
+}
+.sec4-box1 a{
+
+  color: #00c6a9;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+.sec4-box1 a:hover{
+  color: black;
+  cursor: pointer;
+}
+.sec4-box1 h1{
+ 
+  position: relative;
+  top: 15px;
+  font-size: 24px;
+  font-weight: 900;
+  z-index: 1;
+}
+.sec4-box1 p{
+  top: 15px;
+  position: relative;
+  line-height: 25px;
+  font-size: 16px;
+  z-index: 1;
+}
+.treatment{
+  height: 500px ;
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 87%;
+  bottom: 240px;
+  z-index: 0;
+
+}
+.treatment img{
+  height: 200px;
+  width: 150px;
+ 
+}
+
+/* ====================================SECTION -5================================
+*/
+.section5{
+  height: 100vh;
+  width: 100%;
+  background-color: #00c6a9;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.sec5-main{
+  height: 90%;
+  width: 90%;
+ 
+  display: flex;
+  flex-direction: column;
+
+}
+.sec5-head{
+  height: 70px;
+  width: 250px;
+
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 450px;
+  display: flex;
+
+}
+.sec5-head h1{
+  font-size:30px;
+  font-weight: bold;
+
+}
+.doctors{
+  height: 100% ;
+  width: 87%;
+
+  display: flex;
+  flex-direction: row;
+  top: 20px;
+   column-gap: 15px;
+  position: relative;
+  left: 90px;
+}
+.d1{
+  height: 55vh;
+  width: 50vh;
+  background-color: white;
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.d1-img img{
+  height: 45vh ;
+  width:47vh ;
+  position: relative;
+  left: 8px;
+  bottom: 30px;
+
+}
+.d1-img{
+
+position: relative;
+bottom: 20px;
+height: 40vh;
+}
+.d1-cont{
+
+  display: flex;
+  bottom: 55px;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.d1-icon i{
+  padding: 7px;
+  position: relative;
+  bottom: 5px;
+
+}
+.d1-next{
+  position: relative;
+  left: 92%;
+  height: 60px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 40%;
+  background-color: white;
+
+}
+.d1-next:hover , .d1-prev:hover{
+ background-color: black;
+ cursor: pointer;
+}
+.d1-next:hover> i, .d1-prev:hover> i{
+  color: white;
+}
+.d1-next i,.d1-prev i{
+  color: black;
+}
+.d1-prev{
+  position: relative;
+
+  height: 60px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 45%;
+  left: 15px;
+  background-color: white;
+
+}
+/* =================================SECTION-6================================ */
+.section6{
+  height: 70vh;
+  width: 100%;
+}
+.sec6-head{
+  height: 40px;
+  width: 250px;
+  position: relative;
+  display: flex;
+  top: 70px;
+  font-weight: bold;
+  color: #00c6a9;
+  font-size: 20px;
+  left: 100px;
+}
+.sec6-main{
+  height: 30vh;
+  width: 78%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 150px;
+  top: 130px;
+  line-height: 20px;
+  box-shadow: 0px 0px 15px 2px rgb(0, 0, 0, 0.2);
+}
+.sec6-main span{
+  position: relative;
+  left: 85%;
+  font-size: 30px;
+}
+.sec6-main h2{
+  left: 15px;
+  position: relative;
+  top: 20px;
+}
+.sec6-main p{
+  left: 15px;
+  position: relative;
+  top: 20px;
+}
+.sec6-main h3{
+  left: 15px;
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  padding: 10px 0px 10px;
+  
+}
+.sec6-next{
+  position: relative;
+  left: 89.5%;
+  height: 120px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 28px;
+  background-color:#00c6a9;
+
+}
+.sec6-next:hover ,.sec6-prev:hover{
+  cursor: pointer;
+}
+.sec6-prev{
+  position: relative;
+  height: 120px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 33%;
+  left: 8%;
+  background-color: #00c6a9;
+
+}
+/* ===================================SECTION-7========================================= */
+.section7{
+  height: 95vh;
+  width: 100%;
+
+}
+.sec7-container{
+  height: 90%;
+  width: 90%;
+
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.sec7-left{
+  width: 50%;
+  height: 100%;
+
+}
+.sec7-right{
+  width: 50%;
+  height: 100%;
+  
+}
+.sec7-right img{
+  height: 80%;
+  width: 80%;
+  position: relative;
+  top: 65px;
+  left: 65px;
+  
+}
+.sec7-head{
+  width: 200px;
+  height: 40px;
+  font-weight: 800;
+  font-size: 20px;
+
+}
+.sec7-form{
+  height: 83%;
+  width: 100%;
+  position: relative;
+  top: 38px;
+
+
+}
+.sec7-form form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.sec7-form input{
+  width: 100%;
+  border: 1px solid #00c6a9;
+  height: 50px ;
+  
+  
+}
+.sec7-form ::placeholder{
+  color: #00c6a9;
+  font-size: 16px;
+  position: relative;
+  left: 15px;
+
+}
+.sec7-btn button{
+  height: 50px;
+  width: 150px;
+  background-color: #00c6a9;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sec7-btn  button:hover{
+  cursor: pointer;
+}
+
+/* =====================================SECTION-8====================================== */
+.section8{
+  height: 88vh;
+  width: 100%;
+  background-color: #252525;
+  display: flex;
+   flex-direction: column; 
+
+}
+.sec8-head{
+  height: 120px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 15vh;
+ 
+
+}
+.logo2 {
+  height: 19vh;
+  width: 130px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.logo2:hover {
+  cursor: pointer;
+}
+.head-line{
+  width: 100%;
+ 
+}
+.head-line hr{
+  width: 100%;
+  position: relative;
+  left: 50px;
+  top: 80px;
+}
+.head-line span{
+  position: relative;
+  left: 27%;
+  top: 65%;
+}
+.head-line span:hover{
+  cursor: pointer;
+
+}
+.head-line input{
+  position: relative;
+  left: 45px;
+  top: 65%;
+  width: 70%;
+  border: none;
+  border-radius: 0px;
+  background-color: #252525;
+  font-size: 17px;
+  color: white;
+}
+.sec8-main{
+  height: 300px;
+  width: 83%;
+  position: relative;
+  top: 40px;
+  left: 6.5%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+}
+.sec8-main i,p:hover{
+  cursor: pointer;
+}
+.main1{
+  height: 60%;
+  width: 20%;
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+}
+.main1 div p{
+  position: relative;
+  left: 15px;
+  line-height: 2px;
+}
+
+ .main1 div {
+  position: relative;
+  display: flex;
+  color: white;
+  align-items: center;
+} 
+.sec1-top div:hover {
+  cursor: pointer;
+}
+ .sec8-main h3{
+ font-weight: 400;
+ margin-bottom: 5px;
+} 
+.sec8-icon i{
+  padding: 4px;
+  position: relative;
+  bottom: 5px;
+  font-size: 23px;
+
+}
+
+.main2{
+  height: 80%;
+  width: 20%;
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+}
+.main2 p{
+  color: white;
+  padding: 0;
+  margin: 0;
+  line-height:12px;
+}
+.main2 p:hover{
+  cursor: pointer;
+  color: #00c6a9
+}
+
+.main3{
+  height: 60%;
+  width: 20%;
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.ND1{
+  height: 70px;
+}
+.NDa{
+  height: 60px;
+  width: 70px;
+  display: flex;
+  background-color: white;
+
+} 
+.ND1  img{
+  height: 50px;
+  width: 60px;
+}
+.ND1 span{
+  position: relative;
+  bottom: 50px;
+  left: 80px;
+  width: 200px !important;
+}
+.main4{
+  height: 60%;
+  width: 20%;
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+
+
+.sec8-footer{
+  height: 40px;
+  width: 500px;
+  position: relative;
+  top: 15%;
+  left: 30%;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
