@@ -79,6 +79,7 @@ body {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .menu a:hover {
@@ -190,7 +191,7 @@ body {
   border-radius: 50%;
 }
 .icon i{
-  font-size: 17spx;
+  font-size: 17px;
   position: relative;
   left: 25px;
   top: 22px;
